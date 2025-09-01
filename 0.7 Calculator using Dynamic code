@@ -18,7 +18,7 @@ int main() {
     add = a + b;
     sub = a - b;
     mul = a * b;
-    div = (float)a / b;   // typecasting for accurate division
+    div = a / b;  
 
     printf("\nAddition       = %d", add);
     printf("\nSubtraction    = %d", sub);
