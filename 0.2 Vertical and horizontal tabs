@@ -1,0 +1,19 @@
+Program 2 : Vertical tabs and horizontal tabs 
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    printf("Horizontal Tabs Example:\n");
+    printf("Name\tAge\tCourse\n");
+    printf("Ali\t20\tCSE\n");
+    printf("Sara\t19\tECE\n");
+
+    printf("\nVertical Tabs Example:\n");
+    printf("Hello\vWorld\vMSIT");
+
+    getch();
+    return 0;
+}
