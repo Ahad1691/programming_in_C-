@@ -16,8 +16,8 @@ int main() {
     printf("Name       : Ahad Hasan\n");
     printf("Education  : B.Tech ECE (2029)\n");
     printf("Skills     : C, C++, DSA, Web Development\n");
-    printf("GitHub     : https://github.com/yourusername\n");
-    printf("LinkedIn   : https://linkedin.com/in/yourusername\n");
+    printf("GitHub     : https://github.com/Ahad1691\n");
+    printf("LinkedIn   : https://linkedin.com/in/AhadHasan\n");
     printf("Goal       : To work at top tech companies\n");
 
     printf("\n=====================================\n");
