@@ -7,14 +7,14 @@ Program 6
 int main() {
     clrscr();
 
-    int a = 20, b = 10;   // static values
+    int a = 20, b = 10;   
     int add, sub, mul;
     float div;
 
     add = a + b;
     sub = a - b;
     mul = a * b;
-    div = (float)a / b;   // typecasting for decimal division
+    div = a / b;  
 
     printf("First Number  = %d\n", a);
     printf("Second Number = %d\n\n", b);
@@ -22,7 +22,7 @@ int main() {
     printf("Addition       = %d\n", add);
     printf("Subtraction    = %d\n", sub);
     printf("Multiplication = %d\n", mul);
-    printf("Division       = %.2f\n", div);
+    printf("Division       = %f\n", div);
 
     getch();
     return 0;
