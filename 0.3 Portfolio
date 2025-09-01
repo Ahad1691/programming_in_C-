@@ -1,0 +1,29 @@
+Program 3 :'
+
+
+
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    printf("=====================================\n");
+    printf("           MY PORTFOLIO              \n");
+    printf("=====================================\n\n");
+
+    printf("Name       : Ahad Hasan\n");
+    printf("Education  : B.Tech ECE (2029)\n");
+    printf("Skills     : C, C++, DSA, Web Development\n");
+    printf("GitHub     : https://github.com/yourusername\n");
+    printf("LinkedIn   : https://linkedin.com/in/yourusername\n");
+    printf("Goal       : To work at top tech companies\n");
+
+    printf("\n=====================================\n");
+    printf("       Thank you for visiting!       \n");
+    printf("=====================================\n");
+
+    getch();
+    return 0;
+}
