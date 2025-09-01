@@ -1,0 +1,29 @@
+Program 10 
+
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>   // for pow()
+
+int main() {
+    clrscr();
+
+    float p, r, t, ci, amount;
+
+    printf("Enter Principal Amount: ");
+    scanf("%f", &p);
+
+    printf("Enter Rate of Interest: ");
+    scanf("%f", &r);
+
+    printf("Enter Time (in years): ");
+    scanf("%f", &t);
+
+    amount = p * pow((1 + r / 100), t);  // Final amount
+    ci = amount - p;                     // Compound Interest
+
+    printf("\nCompound Interest = %.2f", ci);
+    printf("\nTotal Amount      = %.2f", amount);
+
+    getch();
+    return 0;
+}
