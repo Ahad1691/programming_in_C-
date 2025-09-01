@@ -1,0 +1,12 @@
+1st Program 
+
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();  
+    printf("Welcome to MSIT\n");
+    getch();   
+    return 0;
+}
