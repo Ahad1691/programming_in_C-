@@ -1,0 +1,26 @@
+Program 9 
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    float p, r, t, si;
+
+    printf("Enter Principal Amount: ");
+    scanf("%f", &p);
+
+    printf("Enter Rate of Interest: ");
+    scanf("%f", &r);
+
+    printf("Enter Time (in years): ");
+    scanf("%f", &t);
+
+    si = (p * r * t) / 100;
+
+    printf("\nSimple Interest = %.2f", si);
+
+    getch();
+    return 0;
+}
