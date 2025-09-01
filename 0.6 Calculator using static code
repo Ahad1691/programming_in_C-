@@ -1,0 +1,29 @@
+Program 6 
+
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    int a = 20, b = 10;   // static values
+    int add, sub, mul;
+    float div;
+
+    add = a + b;
+    sub = a - b;
+    mul = a * b;
+    div = (float)a / b;   // typecasting for decimal division
+
+    printf("First Number  = %d\n", a);
+    printf("Second Number = %d\n\n", b);
+
+    printf("Addition       = %d\n", add);
+    printf("Subtraction    = %d\n", sub);
+    printf("Multiplication = %d\n", mul);
+    printf("Division       = %.2f\n", div);
+
+    getch();
+    return 0;
+}
