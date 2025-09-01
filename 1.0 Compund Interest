@@ -2,7 +2,7 @@ Program 10
 
 #include <stdio.h>
 #include <conio.h>
-#include <math.h>   // for pow()
+#include <math.h>  
 
 int main() {
     clrscr();
@@ -18,11 +18,11 @@ int main() {
     printf("Enter Time (in years): ");
     scanf("%f", &t);
 
-    amount = p * pow((1 + r / 100), t);  // Final amount
-    ci = amount - p;                     // Compound Interest
+    amount = p * pow((1 + r / 100), t);
+    ci = amount - p;                     
 
-    printf("\nCompound Interest = %.2f", ci);
-    printf("\nTotal Amount      = %.2f", amount);
+    printf("\nCompound Interest = %f", ci);
+    printf("\nTotal Amount      = %", amount);
 
     getch();
     return 0;
