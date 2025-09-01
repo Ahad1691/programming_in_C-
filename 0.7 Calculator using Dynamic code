@@ -1,0 +1,30 @@
+program 7  
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    int a, b, add, sub, mul;
+    float div;
+
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    add = a + b;
+    sub = a - b;
+    mul = a * b;
+    div = (float)a / b;   // typecasting for accurate division
+
+    printf("\nAddition       = %d", add);
+    printf("\nSubtraction    = %d", sub);
+    printf("\nMultiplication = %d", mul);
+    printf("\nDivision       = %.2f", div);
+
+    getch();
+    return 0;
+}
