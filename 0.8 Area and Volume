@@ -1,0 +1,23 @@
+Program 8 
+
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    clrscr();
+
+    float radius, area, volume;
+
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+
+    area = 3.1416 * radius * radius;                     // Area of circle
+    volume = (4.0 / 3.0) * 3.1416 * radius * radius * radius; // Volume of sphere
+
+    printf("\nArea of Circle   = %.2f", area);
+    printf("\nVolume of Sphere = %.2f", volume);
+
+    getch();
+    return 0;
+}
